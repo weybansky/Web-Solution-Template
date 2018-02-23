@@ -240,9 +240,28 @@ section.contact-us{
 	padding-right: 20px;
 }
 
+section.contact-us input:focus,
+section.contact-us textarea:focus{
+	border-color: #31C229 !important;
+}
+
 section.contact-us input[type=checkbox]{
 	margin-left: 10px;
 }
+
+section.contact-us button{
+	border: 1px solid #31C229;
+	border-radius: 20px;
+	padding: 8px 15px;
+	background-color: #fff;
+}
+
+section.contact-us button:hover{
+	background: #31C229;
+	color: #fff;
+}
+
+
 
 /*blog*/
 section.posts{
@@ -277,14 +296,61 @@ section.posts div.single-post h3.title{
 }
 
 @media (max-width: 991px) {
-	
+	section.services div.img{
+		height: 120px;
+		overflow: hidden;
+	}
 }
 
 @media (max-width: 768px) {
 	nav.main-menu a#sitename,
 	nav.main-menu ul{
 		text-align: center;
+		padding-bottom: 2px;
 	}
 
+	nav.main-menu ul li a{
+		font-size: 14px;
+		padding: 8px 5px;
+	}
+
+	section.jumbotron{
+		background-size: cover;
+		min-height: 260px;
+		background-image: url('../img/background.jpg');
+	}
+
+	section.jumbotron h1{
+		font-size: 44px;
+		margin-top: 10px;
+	}
+
+	section.jumbotron p{
+		color: #bbb;
+		font-size: 18px;
+		font-weight: bold;
+	}
+
+	section.jumbotron p a.btn{
+		color: #31C229;
+		font-weight: bold;
+	}
+
+	section.services div.img{
+		height: auto;
+	}
+	
+	section.bottom-links #col1,
+	section.bottom-links #col2{
+		padding-left: 25px;
+	}
+	
+	section.posts{
+		padding: 10px 0px;
+	}
+
+	section.posts h3.title{
+		margin-top: 7px;
+	}
 	
 }
