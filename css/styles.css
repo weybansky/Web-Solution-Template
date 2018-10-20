@@ -302,12 +302,50 @@ section.posts div.single-post h3.title{
 	font-size: 30px; 
 }
 
+section.posts div.comments > div > h3{
+	font-weight: bold;
+	font-size: 18px;
+	margin-bottom: 15px;
+}
+
+section.posts div.comment{
+	border-bottom: 1px solid #ddd;
+	padding-top: 10px;
+	padding-bottom: 8px;
+}
+
+section.posts div.comment img{
+	border-radius: 50%;
+	width: 50px;
+	height: 50px;
+	margin: auto;
+}
+
+section.posts div.comment > div:nth-child(even){
+	padding-left: 0px;
+}
+
+section.posts div.sub-comment{
+	padding-left: 20px !important;
+}
+
+section.posts div.sub-comment > div:nth-child(even){
+	padding-left: 0px;
+}
+
+section.posts div.sub-comment {
+	margin-top: 5px;
+	border-left: 2px solid #aaa;
+}
+
 @media (max-width: 991px) {
 	section.services div.img{
 		height: 120px;
 		overflow: hidden;
 	}
 }
+
+
 
 @media (max-width: 768px) {
 	nav.main-menu a#sitename,
@@ -358,6 +396,18 @@ section.posts div.single-post h3.title{
 
 	section.posts h3.title{
 		margin-top: 7px;
+	}
+
+
+	section.posts div.comment img{
+		border-radius: 50%;
+		width: 36px;
+		height: 36px;
+		margin: auto;
+	}
+
+	section.posts div.comment > div:nth-child(even){
+		font-size: 12px;
 	}
 	
 }

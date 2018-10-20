@@ -45,13 +45,13 @@
 	<section class="posts">
 		<div class="container">
 			<div class="row">
-				<div class="col-md-8 col-sm-12 col-xs-12">
+				<div class="col-md-9 col-sm-12 col-xs-12">
 					<h3 class="text" style="text-align: left; margin: 5px;">
-						Blog
+						All Blog posts
 					</h3>
 
 					<div class="row post single-post">
-						<div class="col-md-8 col-sm-8 col-xs-12">
+						<div class="col-md-10 col-sm-10 col-xs-12">
 							<img src="img/b.jpg" class="img-responsive" alt="">
 						</div>
 						<div class="col-md-10 col-sm-10 col-xs-12">
@@ -72,6 +72,138 @@
 							<p>
 								Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod, dolorem, voluptate. Perspiciatis assumenda fugiat illum in nihil eligendi et sint ex est, atque, saepe voluptatibus! Perspiciatis iusto praesentium nulla esse eos debitis asperiores voluptatibus consequatur error optio hic, laboriosam sit aliquid dolorum quo ullam commodi, porro aliquam voluptates eaque nisi saepe consectetur quidem! Necessitatibus accusantium perspiciatis explicabo eum culpa. Et ipsam ab nihil sunt recusandae suscipit voluptatum commodi, non tempora.
 							</p>
+						</div>
+					</div>
+
+					<div class="row comments">
+						<div class="col-md-10 col-sm-10 col-xs-12">
+							<h3>Drop Your Comments here</h3>
+
+							<form action="" method="POST" class="add-comment">
+								<div class="form-group">
+									<label for="name">Name:</label>
+									<input type="text" name="name" placeholder="Full Name" class="form-control">
+								</div>
+								<div class="form-group">
+									<label for="email">Email:</label>
+									<input type="email" name="email" placeholder="ex: johndoe@example.com" class="form-control">
+									<p class="help-block">Email will not be displayed in the comments</p>
+								</div>
+								<div class="form-group">
+									<label for="comment">Comment</label>
+									<textarea name="comment" placeholder="Your comment goes here" id="comment" rows="5" class="form-control"></textarea>
+								</div>
+								<div class="form-group">
+									<button type="submit" class="btn btn-success form-control">Comment</button>
+								</div>
+							</form>
+							<hr>
+						</div>
+
+						<div class="col-md-10 col-sm-10 col-xs-12">
+							<div class="row comment">
+								<!-- image -->
+								<div class="col-md-2 col-sm-2 col-xs-2">
+									<img src="img/profile.jpg" alt="Profile Picture" class="img-responsive">
+								</div>
+								<!-- comment -->
+								<div class="col-md-10 col-sm-10 col-xs-10">
+									<p class="name">
+										Abdulwahab Nasir
+										<small class="username"> @weybansky </small> 
+										<small>at 8:40am 16-Oct-2018</small>
+									</p>
+									<p class="content">
+										Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam, hic illo labore consequuntur et accusantium vitae itaque. Ducimus, minus, sed.
+									</p>
+								</div>
+								<div class="col-sm-12 text-right">
+									<button type="button" name="reply-comment" onclick="" class="btn btn-xs btn-default"><i class="fa fa-reply"></i> reply</button>
+									<button type="button" name="delete-comment" class="btn btn-xs btn-danger"><i class="fa fa-trash"></i> delete</button>
+								</div>
+								<div class="sub-comment col-md-10 col-md-offset-2">
+									<div class="">
+										<div class="col-md-2 col-sm-2 col-xs-2">
+											<img src="img/profile.jpg" alt="Profile Picture" class="img-responsive">
+										</div>
+										<div class="col-md-10 col-sm-10 col-xs-10">
+											<p class="name">
+												Abdulwahab Nasir
+												<small class="username"> @weybansky </small> 
+												<small>at 8:40am 16-Oct-2018</small>
+											</p>
+											<p class="content">
+												Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam, hic illo labore consequuntur et accusanti
+											</p>
+										</div>
+										<div class="col-sm-12 text-right">
+											<button type="button" name="reply-comment" onclick="" class="btn btn-xs btn-default"><i class="fa fa-reply"></i> reply</button>
+											<button type="button" name="delete-comment" class="btn btn-xs btn-danger"><i class="fa fa-trash"></i> delete</button>
+										</div>
+									</div>
+									<div class="">
+										<div class="col-md-2 col-sm-2 col-xs-2">
+											<img src="img/profile.jpg" alt="Profile Picture" class="img-responsive">
+										</div>
+										<div class="col-md-10 col-sm-10 col-xs-10">
+											<p class="name">
+												Abdulwahab Nasir
+												<small class="username"> @weybansky </small> 
+												<small>at 8:40am 16-Oct-2018</small>
+											</p>
+											<p class="content">
+												Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam, hic illo labore consequuntur et accusanti
+											</p>
+										</div>
+										<div class="col-sm-12 text-right">
+											<button type="button" name="reply-comment" onclick="" class="btn btn-xs btn-default"><i class="fa fa-reply"></i> reply</button>
+											<button type="button" name="delete-comment" class="btn btn-xs btn-danger"><i class="fa fa-trash"></i> delete</button>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="row comment">
+								<!-- image -->
+								<div class="col-md-2 col-sm-2 col-xs-2">
+									<img src="img/profile.jpg" alt="Profile Picture" class="img-responsive">
+								</div>
+								<!-- comment -->
+								<div class="col-md-10 col-sm-10 col-xs-10">
+									<p class="name">
+										Abdulwahab Nasir
+										<small class="username"> @weybansky </small> 
+										<small>at 8:40am 16-Oct-2018</small>
+									</p>
+									<p class="content">
+										Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam, hic illo labore consequuntur et accusantium vitae itaque. Ducimus, minus, sed.
+									</p>
+								</div>
+								<div class="col-sm-12 text-right">
+									<button type="button" name="reply-comment" onclick="" class="btn btn-xs btn-default"><i class="fa fa-reply"></i> reply</button>
+									<button type="button" name="delete-comment" class="btn btn-xs btn-danger"><i class="fa fa-trash"></i> delete</button>
+								</div>
+							</div>
+							<div class="row comment">
+								<!-- image -->
+								<div class="col-md-2 col-sm-2 col-xs-2">
+									<img src="img/profile.jpg" alt="Profile Picture" class="img-responsive">
+								</div>
+								<!-- comment -->
+								<div class="col-md-10 col-sm-10 col-xs-10">
+									<p class="name">
+										Abdulwahab Nasir
+										<small class="username"> @weybansky </small> 
+										<small>at 8:40am 16-Oct-2018</small>
+									</p>
+									<p class="content">
+										Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam, hic illo labore consequuntur et accusantium vitae itaque. Ducimus, minus, sed.
+									</p>
+								</div>
+								<div class="col-sm-12 text-right">
+									<button type="button" name="reply-comment" onclick="" class="btn btn-xs btn-default"><i class="fa fa-reply"></i> reply</button>
+									<button type="button" name="delete-comment" class="btn btn-xs btn-danger"><i class="fa fa-trash"></i> delete</button>
+								</div>
+							</div>
 						</div>
 					</div>
 
