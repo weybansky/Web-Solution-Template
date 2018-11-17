@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /* 
 	Author: Abdulwahab Nasir
 	Website: https://www.weybanskytech.com.ng
@@ -5,6 +6,8 @@
 	Twitter: @weybansky
  */
 
+=======
+>>>>>>> git cpanel
 /*Global Styling*/
 h3.text{
 	color: #31C229;
@@ -302,6 +305,7 @@ section.posts div.single-post h3.title{
 	font-size: 30px; 
 }
 
+<<<<<<< HEAD
 section.posts div.comments > div > h3{
 	font-weight: bold;
 	font-size: 18px;
@@ -338,6 +342,8 @@ section.posts div.sub-comment {
 	border-left: 2px solid #aaa;
 }
 
+=======
+>>>>>>> git cpanel
 @media (max-width: 991px) {
 	section.services div.img{
 		height: 120px;
@@ -345,8 +351,11 @@ section.posts div.sub-comment {
 	}
 }
 
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> git cpanel
 @media (max-width: 768px) {
 	nav.main-menu a#sitename,
 	nav.main-menu ul{
@@ -397,6 +406,7 @@ section.posts div.sub-comment {
 	section.posts h3.title{
 		margin-top: 7px;
 	}
+<<<<<<< HEAD
 
 
 	section.posts div.comment img{
@@ -409,5 +419,7 @@ section.posts div.sub-comment {
 	section.posts div.comment > div:nth-child(even){
 		font-size: 12px;
 	}
+=======
+>>>>>>> git cpanel
 	
 }
